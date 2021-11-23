@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CourtneyMadeAnAwesomePortfolio/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/CourtneyMadeAnAwesomePortfolio/static/js/main.b180e5d2.chunk.js",
+    "main.js.map": "/CourtneyMadeAnAwesomePortfolio/static/js/main.b180e5d2.chunk.js.map",
+    "runtime-main.js": "/CourtneyMadeAnAwesomePortfolio/static/js/runtime-main.d2a48568.js",
+    "runtime-main.js.map": "/CourtneyMadeAnAwesomePortfolio/static/js/runtime-main.d2a48568.js.map",
+    "static/js/2.9d075b12.chunk.js": "/CourtneyMadeAnAwesomePortfolio/static/js/2.9d075b12.chunk.js",
+    "static/js/2.9d075b12.chunk.js.map": "/CourtneyMadeAnAwesomePortfolio/static/js/2.9d075b12.chunk.js.map",
+    "static/js/3.3351d3e0.chunk.js": "/CourtneyMadeAnAwesomePortfolio/static/js/3.3351d3e0.chunk.js",
+    "static/js/3.3351d3e0.chunk.js.map": "/CourtneyMadeAnAwesomePortfolio/static/js/3.3351d3e0.chunk.js.map",
+    "index.html": "/CourtneyMadeAnAwesomePortfolio/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/CourtneyMadeAnAwesomePortfolio/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.9d075b12.chunk.js.LICENSE.txt": "/CourtneyMadeAnAwesomePortfolio/static/js/2.9d075b12.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/CourtneyMadeAnAwesomePortfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2a48568.js",
+    "static/js/2.9d075b12.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b180e5d2.chunk.js"
+  ]
+}
