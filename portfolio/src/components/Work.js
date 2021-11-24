@@ -2,22 +2,28 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
+import proffff from '../Assets/proffff.JPG'
+import schedd from '../Assets/schedd.JPG'
+import datee from '../Assets/datee.JPG'
+import weath from '../Assets/weath.JPG'
 
 function Work() {
 return (
 <CardGroup>
-<Card className="bg-dark text-white">
-  <Card.Img src="holder.js/100px270" alt="Card image" />
-  <Card.ImgOverlay>
+<Card>
+    <Card.Img variant="top" src={proffff} />
+    <Card.Body>
     <Card.Title>ProfessionalEyes</Card.Title>
     <Card.Text>
       Have you ever had to send a professional email, but the way you were feeling was far from professional at the time?  With ProfessionalEyes, you can type out the email however you are feeling, and the website will fix it for you.  The final product will be ready to send to your desired recipient.
-    </Card.Text>
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
     <Card.Text>Uses Javascript, Express.js, CSS, Handlebars.js, MySQL</Card.Text>
-  </Card.ImgOverlay>
-</Card>
+    </Card.Footer>
+  </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={datee} />
     <Card.Body>
       <Card.Title>Date Night</Card.Title>
       <Card.Text>
@@ -29,7 +35,7 @@ return (
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={weath} />
     <Card.Body>
       <Card.Title>Weather Tracker</Card.Title>
       <Card.Text>
@@ -41,11 +47,11 @@ return (
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={schedd} />
     <Card.Body>
-      <Card.Title>ReadMe Generator</Card.Title>
+      <Card.Title>Daily Tracker</Card.Title>
       <Card.Text>
-        This is a node.js software that is ran within the GitBash Terminal.  By running node index.js, you can simply answer a series of prompts about your project, and the software will generate a ReadMe.md file.
+        If you're like me and need to ensure your day is properly planned out, use this daily tracker to make all your To-Do lists!
       </Card.Text>
     </Card.Body>
     <Card.Footer>

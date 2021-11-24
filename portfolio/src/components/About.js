@@ -1,5 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+import marble from '../Assets/marble.jpg'
+import inkdrops from '../Assets/inkdrops.jpg'
+import swirlyBackground from '../Assets/swirlyBackground.jpg'
 
 function About() {
 return (
@@ -7,7 +10,7 @@ return (
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="public/marble.jpg"
+      src={marble}
       alt="Yeah"
     />
     <Carousel.Caption>
@@ -18,7 +21,7 @@ return (
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="portfolio/public/swirlyBackground.jpg"
+      src={swirlyBackground}
       alt="Second slide"
     />
 
@@ -30,7 +33,7 @@ return (
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="portfolio/public/inkdrops.jpg"
+      src={inkdrops}
       alt="Third slide"
     />
 

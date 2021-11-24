@@ -1,39 +1,13 @@
-import React, { useState } from "react";
-import Nav from "./components/navbar.js";
-import Page from "./components/Page";
-import Footer from "./components/Footer";
-import Header from "./components/Footer";
+import React from "react";
+// import Header from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
-  const [pages] = useState([
-    {
-      name: "about me"
-    },
-    { name: "portfolio" },
-    { name: "contact" },
-    {
-      name: "resume"
-    }
-  ]);
+import MainContainer from "./components/MainContainer";
 
-  const [currentPage, setCurrentPage] = useState(pages[0]);
-
-  return (
-    <div>
-      <Header>
-        <Nav
-          pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        ></Nav>
-      </Header>
-      <main>
-        <Page currentPage={currentPage}></Page>
-      </main>
-      <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <MainContainer />
+  </div>
+);
 
 export default App;
