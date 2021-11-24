@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Nav from "./components/navbar.js";
 import Page from "./components/Page";
 import Footer from "./components/Footer";
+import Header from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {

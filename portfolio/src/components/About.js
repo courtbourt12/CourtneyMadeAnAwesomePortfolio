@@ -7,8 +7,8 @@ return (
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="portfolio/public/marble.jpg"
-      alt="First slide"
+      src="public/marble.jpg"
+      alt="Yeah"
     />
     <Carousel.Caption>
       <h3>My Hobbies</h3>

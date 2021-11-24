@@ -1,4 +1,6 @@
-// import Navbar from 'https://react-bootstrap.github.io/components/navbar/';
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 import React from "react";
 
 function Nav() {
