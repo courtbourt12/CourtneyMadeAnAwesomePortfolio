@@ -1,3 +1,6 @@
+import React from 'react';
+
+function Contact() {
 return (
     <ListGroup variant="flush">
   <ListGroup.Item>Call Me: 770-881-5883</ListGroup.Item>
@@ -6,3 +9,5 @@ return (
   <ListGroup.Item>GitHub: https://github.com/courtbourt12</ListGroup.Item>
 </ListGroup>
 )
+}
+export default Contact;

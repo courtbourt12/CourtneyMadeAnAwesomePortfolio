@@ -1,3 +1,6 @@
+import React from 'react';
+
+function About() {
 return (
     <Carousel>
   <Carousel.Item>
@@ -37,3 +40,5 @@ return (
   </Carousel.Item>
 </Carousel>
 )
+}
+export default About;

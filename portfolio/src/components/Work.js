@@ -1,6 +1,8 @@
+import Card from 'react-bootstrap/Card';
+import React from "react";
+
+function Work() {
 return (
-
-
 <CardGroup>
 <Card className="bg-dark text-white">
   <Card.Img src="holder.js/100px270" alt="Card image" />
@@ -50,3 +52,5 @@ return (
   </Card>
 </CardGroup>
 )
+}
+export default Work;
