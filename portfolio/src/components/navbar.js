@@ -1,4 +1,4 @@
-import Navbar from 'react-bootstrap/Navbar';
+// import Navbar from 'https://react-bootstrap.github.io/components/navbar/';
 import React from "react";
 
 function Nav() {

@@ -1,9 +1,8 @@
 import React from 'react';
-import PageContent from '../PageContent';
-import About from '../About';
-import Work from '../Work';
-import Contact from '../Contact';
-import Resume from '../Resume';
+import PageContent from './PageContent';
+import About from './About';
+import Work from './Work';
+import Contact from './Contact';
 
 
 function Page({ currentPage }) {
@@ -16,8 +15,6 @@ function Page({ currentPage }) {
         return <Work />;
       case 'contact':
         return <Contact />;
-      case 'resume':
-        return <Resume />;
       default:
         return <About />;
     }
