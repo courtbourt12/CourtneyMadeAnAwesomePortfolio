@@ -4,6 +4,8 @@ import marble from '../Assets/marble.jpg'
 import inkdrops from '../Assets/inkdrops.jpg'
 import swirlyBackground from '../Assets/swirlyBackground.jpg'
 
+
+
 function About() {
 return (
     <Carousel>
