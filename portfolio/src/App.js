@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AppNavbar from "./components/navbar";
-import About from "./components/About"
-import Work from "./components/Work"
-import Contact from "./components/Contact"
+import About from "./pages/About"
+import Work from "./pages/Work"
+import Contact from "./pages/Contact"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 

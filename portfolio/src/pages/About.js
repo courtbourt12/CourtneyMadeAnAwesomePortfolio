@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import marble from "../Assets/marble.jpg";
-import inkdrops from "../Assets/inkdrops.jpg";
-import swirlyBackground from "../Assets/swirlyBackground.jpg";
+import marble from "../assets/Photos/marble.jpg";
+import inkdrops from "../assets/Photos/inkDrops.jpg";
+import swirlyBackground from "../assets/Photos/swirlyBackground.jpg";
 
 function About() {
   return (

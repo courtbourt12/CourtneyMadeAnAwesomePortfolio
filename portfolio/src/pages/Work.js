@@ -2,17 +2,17 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
-import proffff from '../Assets/proffff.JPG'
-import schedd from '../Assets/schedd.JPG'
-import datee from '../Assets/datee.JPG'
-import weath from '../Assets/weath.JPG'
+import professionalEyes from '../assets/Photos/professionalEyes.JPG'
+import dailyTracker from '../assets/Photos/dayTracker.JPG'
+import dateNight from '../assets/Photos/dateNight.JPG'
+import weather from '../assets/Photos/weather.JPG'
 
 function Work() {
 return (
 <CardGroup>
 <Card>
   <a href="https://professionaleyes.herokuapp.com/">
-    <Card.Img variant="top" src={proffff} />
+    <Card.Img variant="top" src={professionalEyes} />
   </a>
     <Card.Body>
     <Card.Title>ProfessionalEyes</Card.Title>
@@ -26,7 +26,7 @@ return (
   </Card>
   <Card>
   <a href="https://github.com/ERion42/groupProject">
-    <Card.Img variant="top" src={datee} />
+    <Card.Img variant="top" src={dateNight} />
   </a>
     <Card.Body>
       <Card.Title>Date Night</Card.Title>
@@ -40,7 +40,7 @@ return (
   </Card>
   <Card>
     <a href="https://courtbourt12.github.io/weather-Channel/">
-    <Card.Img variant="top" src={weath} />
+    <Card.Img variant="top" src={weather} />
   </a>
     <Card.Body>
       <Card.Title>Weather Tracker</Card.Title>
@@ -54,7 +54,7 @@ return (
   </Card>
   <Card>
     <a href="https://github.com/courtbourt12/daily-task-tracker">
-    <Card.Img variant="top" src={schedd} />
+    <Card.Img variant="top" src={dailyTracker} />
   </a>
     <Card.Body>
       <Card.Title>Daily Tracker</Card.Title>
