@@ -7,7 +7,6 @@ function Footer() {
       position: "absolute",
       bottom: "0px",
       textAlign: "center",
-      background: "RGB(255, 242, 255)",
       width: "100%",
       height: "75px",
       fontSize: "20px",

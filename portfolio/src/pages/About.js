@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import marble from "../assets/Photos/marble.jpg";
-import inkdrops from "../assets/Photos/inkDrops.jpg";
+import inkDrops from "../assets/Photos/inkDrops.jpg";
 import swirlyBackground from "../assets/Photos/swirlyBackground.jpg";
 
 function About() {
@@ -19,7 +19,8 @@ function About() {
           color: "black",
           background: "white",
           border: "solid black 1px",
-        }}>
+        }}
+        >
           <h3>My Hobbies</h3>
           <p>
             I am huge fan of the outdoors, including hiking, camping, and
@@ -69,7 +70,7 @@ function About() {
           marginTop: "100px",
         }}
       >
-        <img className="d-block w-100" src={inkdrops} alt="Third slide" />
+        <img className="d-block w-100" src={inkDrops} alt="Third slide" />
 
         <Carousel.Caption
         style={{
