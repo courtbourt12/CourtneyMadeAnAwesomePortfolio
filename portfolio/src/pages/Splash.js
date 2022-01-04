@@ -1,5 +1,6 @@
 import React from "react"
 import "../App.css"
+import me from "../assets/Photos/splashPageMe.JPG"
 
 function Splash() {
   return (
@@ -23,94 +24,126 @@ function Splash() {
           left: "120px",
           zIndex: "3"
         }}>
-        <p>"An impossibility is only a possibility</p>
-        <p>you don't understand yet"</p>
+        <p>An impossibility is only a possibility</p>
+        <p>you don't understand yet.</p>
         </div>
-      <div className= "cloud2"
-      style= {{
-      position: "absolute",
-      content: "",
-      top: "135px",
-      left: "120px",
-      width: "100px",
-      height: "100px",
-      borderRadius: "100px",
-      borderTop: "2px solid white",
-      borderLeft: "2px solid white",
-      borderRight: "2px solid white",
-      borderBottom: "2px solid white",
-      zIndex: "2",
-      background: "white"
-      }}>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
       </div>
-      <div className= "cloud3"
-      style= {{
-      position: "absolute",
-      content: "",
-      top: "115px",
-      left: "170px",
-      width: "150px",
-      height: "150px",
-      borderRadius: "100px",
-      borderTop: "2px solid white",
-      borderLeft: "2px solid white",
-      borderRight: "2px solid white",
-      borderBottom: "2px solid white",
-      zIndex: "2",
-      background: "white"
-      }}>
+      <div className="wholeCloud2">
+        <div className= "text"
+        style= {{
+          position: "absolute",
+          top: "150px",
+          left: "120px",
+          zIndex: "3"
+        }}>
+        Inspire
+        </div>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
       </div>
-      <div className= "cloud2"
-      style= {{
-      position: "absolute",
-      content: "",
-      top: "135px",
-      left: "270px",
-      width: "100px",
-      height: "100px",
-      borderRadius: "100px",
-      borderTop: "2px solid white",
-      borderLeft: "2px solid white",
-      borderRight: "2px solid white",
-      borderBottom: "2px solid white",
-      zIndex: "2",
-      background: "white"
-      }}>
+      <div className="wholeCloud3">
+        <div className= "text"
+        style= {{
+          position: "absolute",
+          top: "150px",
+          left: "120px",
+          zIndex: "3"
+        }}>
+        Mindset is everything
+        </div>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
       </div>
-      <div className= "cloud1"
-      style= {{
-      position: "absolute",
-      content: "",
-      top: "150px",
-      left: "70px",
-      width: "150px",
-      height: "70px",
-      borderRadius: "1000px",
-      borderTop: "2px solid white",
-      borderLeft: "2px solid white",
-      borderRight: "2px solid white",
-      borderBottom: "2px solid white",
-      zIndex: "2",
-      background: "white"
-      }}>
+      <div className="wholeCloud4">
+        <div className= "text"
+        style= {{
+          position: "absolute",
+          top: "150px",
+          left: "120px",
+          zIndex: "3"
+        }}>
+        Know your worth
+        </div>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
       </div>
-      <div className= "cloud1"
-      style= {{
-      position: "absolute",
-      content: "",
-      top: "150px",
-      left: "270px",
-      width: "150px",
-      height: "70px",
-      borderRadius: "1000px",
-      borderTop: "2px solid white",
-      borderLeft: "2px solid white",
-      borderRight: "2px solid white",
-      borderBottom: "2px solid white",
-      zIndex: "2",
-      background: "white"
-      }}>
+      <div className="wholeCloud5">
+        <div className= "text"
+        style= {{
+          position: "absolute",
+          top: "150px",
+          left: "120px",
+          zIndex: "3"
+        }}>
+        Nothing changes if nothing changes.
+        </div>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
       </div>
+      <div className="wholeCloud6">
+        <div className= "text"
+        style= {{
+          position: "absolute",
+          top: "150px",
+          left: "120px",
+          zIndex: "3"
+        }}>
+        Purpose fuels passion
+        </div>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
+      </div>
+      <div className="wholeCloud7">
+        <div className= "text"
+        style= {{
+          position: "absolute",
+          top: "150px",
+          left: "120px",
+          zIndex: "3"
+        }}>
+        Your only limit is your mind.
+        </div>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
+      </div>
+      <div className="wholeCloud8">
+        <div className= "text"
+        style= {{
+          position: "absolute",
+          top: "150px",
+          left: "120px",
+          zIndex: "3"
+        }}>
+        Doubt kills more dreams than failure ever will.
+        </div>
+      <div className= "cloud1"></div>
+      <div className= "cloud2"></div>
+      <div className= "cloud3"></div>
+      <div className= "cloud4"></div>
+      <div className= "cloud5"></div>
       </div>
     <div className= "mountainTall"
     style= {{
@@ -230,6 +263,16 @@ function Splash() {
         color: "white",
         fontWeight: "bold"
     }}>Hi! I'm Courtney - Welcome to my portfolio :)</p>
+    </div>
+    <div>
+      <img src = {me}
+      style={{
+      zIndex: "4",
+      position: "absolute",
+      right: "50px",
+      bottom: "0px",
+      height: "200px"
+      }}/>
     </div>
     </main>
     </div>
