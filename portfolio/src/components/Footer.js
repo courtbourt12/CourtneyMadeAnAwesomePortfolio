@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="flex-row px-1"
     style={{
-      position: "absolute",
+      position: "relative",
       bottom: "0px",
       textAlign: "center",
       width: "100%",
