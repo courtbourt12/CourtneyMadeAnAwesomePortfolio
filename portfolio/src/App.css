@@ -96,10 +96,64 @@ background: white;
     }
 }
 
+@-webkit-keyframes animateCloud2 {
+    0% {
+        margin-left: -2000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud2 {
+    0% {
+        margin-left: -2000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud2 {
+    0% {
+        margin-left: -2000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-webkit-keyframes animateCloud3 {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud3 {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud3 {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
 .cloud {
-    -webkit-animation: animateCloud 62s linear infinite;
-    -moz-animation: animateCloud 62s linear infinite;
-	animation: animateCloud 62s linear infinite;
+    -webkit-animation: animateCloud 90s linear infinite;
+    -moz-animation: animateCloud 90s linear infinite;
+	animation: animateCloud 90s linear infinite;
 	
 	-webkit-transform: scale(0.70);
 	-moz-transform: scale(0.70);
@@ -109,9 +163,9 @@ background: white;
 .wholeCloud2 {
     position: absolute;
     top: 400px;
-    -webkit-animation: animateCloud 78s linear infinite;
-    -moz-animation: animateCloud 78s linear infinite;
-	animation: animateCloud 78s linear infinite;
+    -webkit-animation: animateCloud 65s linear infinite;
+    -moz-animation: animateCloud 65s linear infinite;
+	animation: animateCloud 65s linear infinite;
 	
 	-webkit-transform: scale(0.85);
 	-moz-transform: scale(0.85);
@@ -122,9 +176,9 @@ background: white;
     position: absolute;
     top: 275px;
     z-index: 4;
-    -webkit-animation: animateCloud 68s linear infinite;
-    -moz-animation: animateCloud 68s linear infinite;
-	animation: animateCloud 68s linear infinite;
+    -webkit-animation: animateCloud2 68s linear infinite;
+    -moz-animation: animateCloud2 68s linear infinite;
+	animation: animateCloud2 68s linear infinite;
 	
 	-webkit-transform: scale(0.98);
 	-moz-transform: scale(0.98);
@@ -133,10 +187,10 @@ background: white;
 
 .wholeCloud4 {
     position: absolute;
-    top: 480px;
-    -webkit-animation: animateCloud 52s linear infinite;
-    -moz-animation: animateCloud 52s linear infinite;
-	animation: animateCloud 52s linear infinite;
+    top: 350px;
+    -webkit-animation: animateCloud3 52s linear infinite;
+    -moz-animation: animateCloud3 52s linear infinite;
+	animation: animateCloud3 52s linear infinite;
 	
 	-webkit-transform: scale(1.3);
 	-moz-transform: scale(1.3);
@@ -146,9 +200,9 @@ background: white;
 .wholeCloud5 {
     position: absolute;
     top: 75px;
-    -webkit-animation: animateCloud 84s linear infinite;
-    -moz-animation: animateCloud 84s linear infinite;
-	animation: animateCloud 84s linear infinite;
+    -webkit-animation: animateCloud3 80s linear infinite;
+    -moz-animation: animateCloud3 80s linear infinite;
+	animation: animateCloud3 80s linear infinite;
 	
 	-webkit-transform: scale(0.54);
 	-moz-transform: scale(0.54);
@@ -158,9 +212,9 @@ background: white;
 .wholeCloud6 {
     position: absolute;
     top: 300px;
-    -webkit-animation: animateCloud 95s linear infinite;
-    -moz-animation: animateCloud 95s linear infinite;
-	animation: animateCloud 95s linear infinite;
+    -webkit-animation: animateCloud3 60s linear infinite;
+    -moz-animation: animateCloud3 60s linear infinite;
+	animation: animateCloud3 60s linear infinite;
 	
 	-webkit-transform: scale(0.52);
 	-moz-transform: scale(0.52);
@@ -169,11 +223,11 @@ background: white;
 
 .wholeCloud7 {
     position: absolute;
-    top: 500px;
+    top: 375px;
     z-index: 3;
-    -webkit-animation: animateCloud 61s linear infinite;
-    -moz-animation: animateCloud 61s linear infinite;
-	animation: animateCloud 61s linear infinite;
+    -webkit-animation: animateCloud2 80s linear infinite;
+    -moz-animation: animateCloud2 80s linear infinite;
+	animation: animateCloud2 80s linear infinite;
 	
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
@@ -182,12 +236,12 @@ background: white;
 
 .wholeCloud8 {
     position: absolute;
-    top: 372px;
-    -webkit-animation: animateCloud 51s linear infinite;
-    -moz-animation: animateCloud 51s linear infinite;
-	animation: animateCloud 51s linear infinite;
+    top: 25px;
+    -webkit-animation: animateCloud2 90s linear infinite;
+    -moz-animation: animateCloud2 90s linear infinite;
+	animation: animateCloud2 90s linear infinite;
 	
-	-webkit-transform: scale(0.54);
-	-moz-transform: scale(0.54);
-	transform: scale(0.54);
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	transform: scale(0.75);
 }

@@ -1,6 +1,7 @@
 import React from "react"
 import "../App.css"
 import me from "../assets/Photos/splashPageMe.JPG"
+import { Link } from "react-router-dom"
 
 function Splash() {
   return (
@@ -22,7 +23,9 @@ function Splash() {
           position: "absolute",
           top: "150px",
           left: "120px",
-          zIndex: "3"
+          zIndex: "3",
+          textAlign: "center",
+          fontFamily: "cursive"
         }}>
         <p>An impossibility is only a possibility</p>
         <p>you don't understand yet.</p>
@@ -37,11 +40,14 @@ function Splash() {
         <div className= "text"
         style= {{
           position: "absolute",
-          top: "150px",
+          top: "165px",
           left: "120px",
-          zIndex: "3"
+          zIndex: "3",
+          width: "250px",
+          textAlign: "center",
+          fontFamily: "cursive"
         }}>
-        Inspire
+        Doubt kills more dreams than failure ever will.
         </div>
       <div className= "cloud1"></div>
       <div className= "cloud2"></div>
@@ -53,9 +59,12 @@ function Splash() {
         <div className= "text"
         style= {{
           position: "absolute",
-          top: "150px",
-          left: "120px",
-          zIndex: "3"
+          top: "170px",
+          left: "150px",
+          zIndex: "3",
+          width: "300px",
+          fontSize: "20px",
+          fontFamily: "cursive"
         }}>
         Mindset is everything
         </div>
@@ -69,9 +78,11 @@ function Splash() {
         <div className= "text"
         style= {{
           position: "absolute",
-          top: "150px",
-          left: "120px",
-          zIndex: "3"
+          top: "180px",
+          left: "185px",
+          zIndex: "3",
+          width: "300px",
+          fontFamily: "cursive"
         }}>
         Know your worth
         </div>
@@ -85,9 +96,13 @@ function Splash() {
         <div className= "text"
         style= {{
           position: "absolute",
-          top: "150px",
-          left: "120px",
-          zIndex: "3"
+          top: "148px",
+          left: "100px",
+          textAlign: "center",
+          zIndex: "3",
+          width: "300px",
+          fontSize: "25px",
+          fontFamily: "cursive"
         }}>
         Nothing changes if nothing changes.
         </div>
@@ -101,9 +116,12 @@ function Splash() {
         <div className= "text"
         style= {{
           position: "absolute",
-          top: "150px",
-          left: "120px",
-          zIndex: "3"
+          top: "155px",
+          left: "100px",
+          zIndex: "3",
+          width: "300px",
+          fontSize: "30px",
+          fontFamily: "cursive"
         }}>
         Purpose fuels passion
         </div>
@@ -117,9 +135,11 @@ function Splash() {
         <div className= "text"
         style= {{
           position: "absolute",
-          top: "150px",
-          left: "120px",
-          zIndex: "3"
+          top: "170px",
+          left: "145px",
+          zIndex: "3",
+          width: "400px",
+          fontFamily: "cursive"
         }}>
         Your only limit is your mind.
         </div>
@@ -133,11 +153,15 @@ function Splash() {
         <div className= "text"
         style= {{
           position: "absolute",
-          top: "150px",
-          left: "120px",
-          zIndex: "3"
+          top: "170px",
+          left: "130px",
+          zIndex: "3",
+          textSize: "100px",
+          fontFamily: "cursive",
+          textAlign: "center",
+          width: "250px"
         }}>
-        Doubt kills more dreams than failure ever will.
+        Don't worry about things you can't control.
         </div>
       <div className= "cloud1"></div>
       <div className= "cloud2"></div>
@@ -263,6 +287,11 @@ function Splash() {
         color: "white",
         fontWeight: "bold"
     }}>Hi! I'm Courtney - Welcome to my portfolio :)</p>
+    <Link to="/about"
+    style={{
+      color: "white",
+      textDecoration: "none"
+    }}>Click here for more about me.</Link>
     </div>
     <div>
       <img src = {me}
