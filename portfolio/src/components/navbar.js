@@ -9,14 +9,14 @@ function AppNavbar() {
   return (
 <Navbar bg="dark" expand="lg"
 style= {{
-  background: "#ee9617",
-  backgroundImage: "linear-gradient(360deg, #fe5858 100%, #fe5858 0%)",
+  background: "none"
 }}>
   <Container>
     <Navbar.Brand as={Link} to="/"
     style= {{
       fontSize: "30px",
-      paddingRight: "30px"
+      paddingRight: "30px",
+      color: "#DFB722"
     }}>Courtney Long</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -27,21 +27,25 @@ style= {{
         <Nav.Link as={Link} to="/about"
          style= {{
           fontSize: "25px",
-          paddingRight: "30px"
+          paddingRight: "30px",
+          color: "#DFB722"
         }}>About Me</Nav.Link>
         <Nav.Link as={Link} to="/work"
          style= {{
           fontSize: "25px",
-          paddingRight: "30px"
+          paddingRight: "30px",
+          color: "#DFB722"
         }}>Work</Nav.Link>
         <Nav.Link as={Link} to="/contact"
          style= {{
           fontSize: "25px",
-          paddingRight: "30px"
+          paddingRight: "30px",
+          color: "#DFB722"
         }}>Contact Me</Nav.Link>
         <NavDropdown title="Resume" id="basic-nav-dropdown"
         style= {{
-          fontSize: "25px"
+          fontSize: "25px",
+          color: "#DFB722"
         }}>
           <NavDropdown.Item href="./Assets/myResume.pdf.pdf" download>Download</NavDropdown.Item>
         </NavDropdown>

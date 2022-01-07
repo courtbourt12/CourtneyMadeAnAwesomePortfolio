@@ -25,10 +25,10 @@ function Splash() {
           left: "120px",
           zIndex: "3",
           textAlign: "center",
-          fontFamily: "cursive"
+          fontFamily: "cursive",
+          width: "250px"
         }}>
-        <p>An impossibility is only a possibility</p>
-        <p>you don't understand yet.</p>
+        <p>An impossibility is only a possibility you don't understand yet.</p>
         </div>
       <div className= "cloud1"></div>
       <div className= "cloud2"></div>
