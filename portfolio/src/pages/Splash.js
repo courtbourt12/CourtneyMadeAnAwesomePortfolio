@@ -2,6 +2,7 @@ import React from "react"
 import "../App.css"
 import me from "../assets/Photos/splashPageMe.JPG"
 import { Link } from "react-router-dom"
+import "../styling/Splash.css";
 
 function Splash() {
   return (
@@ -275,22 +276,23 @@ function Splash() {
       background: "rgb(255,196,12)"
     }}>
     </div>
-    <div
+    <div className= "textDiv"
     style = {{
       fontSize: "50px",
       textAlign: "center",
       margin: "auto",
-      marginTop: "200px"
+      marginTop: "200px",
+      zIndex: "10"
     }}>
-     <p
+     <p className= "mainText"
       style={{
         color: "white",
-        fontWeight: "bold"
+        fontWeight: "bold",
     }}>Hi! I'm Courtney - Welcome to my portfolio :)</p>
-    <Link to="/about"
+    <Link to="/about" className= "mainText"
     style={{
       color: "white",
-      textDecoration: "none"
+      textDecoration: "none",
     }}>Click here for more about me.</Link>
     </div>
     <div>

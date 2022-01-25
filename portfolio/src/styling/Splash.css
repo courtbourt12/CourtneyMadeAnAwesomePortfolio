@@ -1,0 +1,9 @@
+@media only screen and (max-width: 390px) {
+    .textDiv {
+        background-color: white,
+    }
+    
+    .mainText {
+        color: black
+    }
+  }

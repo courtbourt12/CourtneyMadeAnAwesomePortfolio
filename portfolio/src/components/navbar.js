@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from "react-bootstrap/Nav";
 import Container from 'react-bootstrap/Container'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+import Resume from '../assets/Documents/myResume.pdf.pdf'
+import "../styling/Navbar.css";
 
 function AppNavbar() {
   return (
-<Navbar bg="dark" expand="lg"
+<Navbar  expand="lg"
 style= {{
-  background: "none"
+  background: "black"
 }}>
   <Container>
     <Navbar.Brand as={Link} to="/"
@@ -18,7 +19,7 @@ style= {{
       paddingRight: "30px",
       color: "#DFB722"
     }}>Courtney Long</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle aria-controls="basic-navbar-nav" style={{border: "1px solid#DFB722"}}/>
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto"
       style= {{
@@ -42,13 +43,12 @@ style= {{
           paddingRight: "30px",
           color: "#DFB722"
         }}>Contact Me</Nav.Link>
-        <NavDropdown title="Resume" id="basic-nav-dropdown"
-        style= {{
+        <Nav.Link href={Resume} download
+         style= {{
           fontSize: "25px",
+          paddingRight: "30px",
           color: "#DFB722"
-        }}>
-          <NavDropdown.Item href="./Assets/myResume.pdf.pdf" download>Download</NavDropdown.Item>
-        </NavDropdown>
+        }}>Resume</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

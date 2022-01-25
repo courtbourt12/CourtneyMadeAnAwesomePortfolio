@@ -1,9 +1,14 @@
 import React from "react";
 import AppNavbar from "../components/navbar";
 import Footer from "../components/Footer";
+import Hobbies from "../components/Hobbies";
+import Education from "../components/Education";
+import Personality from "../components/Personality";
 import "../styling/About.css";
 
+
 function About() {
+  
   return (
     <>
     <AppNavbar />
@@ -46,15 +51,9 @@ function About() {
       <div className= "glitter" id="glitter37"></div>
       <div className= "glitter" id="glitter38"></div>
     <div className= "mainCard">
-      <div className= "littleCards" id= "hobbies">
-        Hobbies
-      </div>
-      <div className= "littleCards" id= "personality">
-      Personality
-      </div>
-      <div className= "littleCards" id= "education">
-      Education
-      </div>
+      <Hobbies />
+      <Personality />
+      <Education />
     </div>
     </div>
 

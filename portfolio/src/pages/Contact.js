@@ -1,10 +1,12 @@
 import React from "react";
 import ListGroup from "react-bootstrap/ListGroup";
 import stickFigureMe from "../assets/Photos/stickFigureMe.JPG";
+import AppNavbar from "../components/navbar";
 
 function Contact() {
   return (
     <>
+    <AppNavbar />
     <ListGroup
       variant="flush"
       style={{
