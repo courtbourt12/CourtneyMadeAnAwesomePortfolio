@@ -751,10 +751,22 @@ background: white;
         border-right: 350px solid transparent;
         border-bottom: 525px solid grey;
     }
+
+    .mountainEight {
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        right: -300px;
+        border-top: 0px solid transparent;
+        border-left: 400px solid transparent;
+        border-right: 400px solid transparent;
+        border-bottom: 605px solid rgb(72,72,72);
+        z-index: 3;
+    }
     
     .sun {
         position: absolute;
-        bottom: 40px;
+        bottom: 70px;
         right: 50px;
         width: 300px;
         height: 300px;
