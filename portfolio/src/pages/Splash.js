@@ -1,13 +1,14 @@
-import React from "react"
-import "../App.css"
-import me from "../assets/Photos/splashPageMe.JPG"
-import { Link } from "react-router-dom"
+import React from "react";
+import "../App.css";
+import me from "../assets/Photos/splashPageMe.JPG";
+import { Link } from "react-router-dom";
 import "../styling/Splash.css";
+import Card from 'react-bootstrap/Card';
 
 function Splash() {
   return (
-    <div>
-    <main
+    <div className= "wholePage">
+    <div
     style= {{
       position: "absolute",
       top:"0px",
@@ -16,7 +17,7 @@ function Splash() {
       right:"0px",
       background: "#ee9617",
       backgroundImage: "linear-gradient(360deg, #ee9617 0%, #fe5858 94%)",
-      zIndex: "-3"
+      zIndex: "-7"
     }}>
       <div className="cloud">
         <div className= "text"
@@ -170,142 +171,26 @@ function Splash() {
       <div className= "cloud4"></div>
       <div className= "cloud5"></div>
       </div>
-    <div className= "mountainTall"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "0px",
-      left: "150px",
-      borderTop: "0px solid transparent",
-      borderLeft: "350px solid transparent",
-      borderRight: "350px solid transparent",
-      borderBottom: "525px solid grey",
-    }}>
-    </div>
-    <div className= "mountainLeft"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "0px",
-      left: "-400px",
-      borderTop: "0px solid transparent",
-      borderLeft: "500px solid transparent",
-      borderRight: "500px solid transparent",
-      borderBottom: "305px solid lightGrey",
-      zIndex: "-1"
-    }}>
-    </div>
-    <div className= "mountainMiddle"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "0px",
-      left: "400px",
-      borderTop: "0px solid transparent",
-      borderLeft: "500px solid transparent",
-      borderRight: "500px solid transparent",
-      borderBottom: "425px solid rgb(168,168,168)",
-      zIndex: "-1"
-    }}>
-    </div>
-    <div className= "mountainTiny"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "0px",
-      left: "570px",
-      borderTop: "0px solid transparent",
-      borderLeft: "375px solid transparent",
-      borderRight: "375px solid transparent",
-      borderBottom: "250px solid rgb(96,96,96)"
-    }}>
-    </div>
-    <div className= "mountainTiny"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "0px",
-      left: "780px",
-      borderTop: "0px solid transparent",
-      borderLeft: "450px solid transparent",
-      borderRight: "450px solid transparent",
-      borderBottom: "605px solid rgb(208,208,208)",
-      zIndex: "-1"
-    }}>
-    </div>
-    <div className= "mountainFarRight"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "0px",
-      right: "0px",
-      borderTop: "0px solid transparent",
-      borderLeft: "400px solid transparent",
-      borderRight: "400px solid transparent",
-      borderBottom: "550px solid rgb(160,160,160)",
-      zIndex: "2"
-    }}>
-    </div>
-    <div className= "mountainFarFarRight"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "0px",
-      right: "0px",
-      borderTop: "0px solid transparent",
-      borderLeft: "500px solid transparent",
-      borderRight: "0px solid transparent",
-      borderBottom: "400px solid rgb(72,72,72)",
-      zIndex: "2",
-    }}>
-    </div>
-    <div className= "sun"
-    style= {{
-      position: "absolute",
-      content: "",
-      bottom: "100px",
-      right: "50px",
-      width: "300px",
-      height: "300px",
-      borderRadius: "150px",
-      borderTop: "2px solid rgb(255,196,12)",
-      borderLeft: "2px solid rgb(255,196,12)",
-      borderRight: "2px solid rgb(255,196,12)",
-      borderBottom: "2px solid rgb(255,196,12)",
-      zIndex: "-2",
-      background: "rgb(255,196,12)"
-    }}>
-    </div>
-    <div className= "textDiv"
-    style = {{
-      fontSize: "50px",
-      textAlign: "center",
-      margin: "auto",
-      marginTop: "200px",
-      zIndex: "10"
-    }}>
-     <p className= "mainText"
-      style={{
-        color: "white",
-        fontWeight: "bold",
-    }}>Hi! I'm Courtney - Welcome to my portfolio :)</p>
-    <Link to="/about" className= "mainText"
-    style={{
-      color: "white",
-      textDecoration: "none",
-    }}>Click here for more about me.</Link>
-    </div>
+    
+    <div className= "mountainOne"></div>
+    <div className= "mountainTwo"></div>
+    <div className= "mountainThree"></div>
+    <div className= "mountainFour"></div>
+    <div className= "mountainFive"></div>
+    <div className= "mountainSix"></div>
+    <div className= "mountainSeven"></div>
+    <div className= "sun"></div>
+    <Card className= "theCard">
+      <Card.Body>
+        <Card.Title
+        className= "title">Hi!  I'm Courtney - Welcome to my Portfolio :)</Card.Title>
+        <Link to="/about" className= "toBeSmaller">About Me</Link>
+      </Card.Body>
+    </Card>
     <div>
-      <img src = {me}
-      style={{
-      zIndex: "4",
-      position: "absolute",
-      right: "50px",
-      bottom: "0px",
-      height: "200px"
-      }}/>
+      <img src = {me} alt= "A stick figure with my face photoshopped on." className= "stickMe"/>
     </div>
-    </main>
+    </div>
     </div>
   );
 }

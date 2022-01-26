@@ -11,7 +11,7 @@ import "../styling/Work.css";
 
 function Work() {
 return (
-  <div className= "background">
+  <div className= "backgroundWork">
   <AppNavbar />
 <CardGroup
 style= {{

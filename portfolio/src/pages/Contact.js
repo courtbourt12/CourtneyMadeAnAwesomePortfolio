@@ -2,6 +2,7 @@ import React from "react";
 import ListGroup from "react-bootstrap/ListGroup";
 import stickFigureMe from "../assets/Photos/stickFigureMe.JPG";
 import AppNavbar from "../components/navbar";
+import "../styling/Contact.css";
 
 function Contact() {
   return (
@@ -10,11 +11,11 @@ function Contact() {
     <ListGroup
       variant="flush"
       style={{
-        width: "60%",
+        width: "80%",
         textAlign: "center",
         marginLeft: "auto",
         marginRight: "auto",
-        marginTop: "125px",
+        marginTop: "80px",
         border: "solid black 2px",
       }}
     >

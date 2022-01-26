@@ -1,14 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import AppNavbar from "./components/navbar";
 import Splash from "./pages/Splash"
 import About from "./pages/About"
 import Work from "./pages/Work"
 import Contact from "./pages/Contact"
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
-import Footer from "./components/Footer";
 
 const App = () => (
     <Router>
