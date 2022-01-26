@@ -374,6 +374,17 @@ background: white;
     border-bottom: 525px solid grey;
 }
 
+.mountainEight {
+    position: absolute;
+    bottom: 0px;
+    right: -250px;
+    border-top: 0px solid transparent;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 605px solid rgb(72,72,72);
+    z-index: 3;
+}
+
 .sun {
     position: absolute;
     bottom: 100px;
@@ -712,11 +723,11 @@ background: white;
     .mountainFive {
         position: absolute; 
         bottom: 0px;
-        right: 50px;
+        right: -120px;
         border-top: 0px solid transparent;
         border-left: 170px solid transparent;
         border-right: 170px solid transparent;
-        border-bottom: 100px solid rgb(72,72,72);
+        border-bottom: 150px solid rgb(72,72,72);
         z-index: 3;
     }
     

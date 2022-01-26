@@ -179,6 +179,7 @@ function Splash() {
     <div className= "mountainFive"></div>
     <div className= "mountainSix"></div>
     <div className= "mountainSeven"></div>
+    <div className= "mountainEight"></div>
     <div className= "sun"></div>
     <Card className= "theCard">
       <Card.Body>
