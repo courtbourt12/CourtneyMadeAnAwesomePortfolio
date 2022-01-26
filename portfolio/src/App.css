@@ -361,7 +361,7 @@ background: white;
     border-left: 500px solid transparent;
     border-right: 0px solid transparent;
     border-bottom: 400px solid rgb(72,72,72);
-    z-index: -2;
+    z-index: -1;
 };
 
 .mountainSeven {
@@ -739,7 +739,6 @@ background: white;
         border-left: 350px solid transparent;
         border-right: 350px solid transparent;
         border-bottom: 525px solid grey;
-        transform: scale(.15);
     }
     
     .sun {

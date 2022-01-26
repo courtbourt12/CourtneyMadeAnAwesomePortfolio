@@ -182,8 +182,7 @@ function Splash() {
     <div className= "sun"></div>
     <Card className= "theCard">
       <Card.Body>
-        <Card.Title
-        className= "title">Hi!  I'm Courtney - Welcome to my Portfolio :)</Card.Title>
+        <Card.Title className= "title">Hi!  I'm Courtney - Welcome to my Portfolio :)</Card.Title>
         <Link to="/about" className= "toBeSmaller">About Me</Link>
       </Card.Body>
     </Card>
