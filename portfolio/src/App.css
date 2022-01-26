@@ -714,10 +714,10 @@ background: white;
         bottom: 0px;
         right: 50px;
         border-top: 0px solid transparent;
-        border-left: 150px solid transparent;
-        border-right: 150px solid transparent;
-        border-bottom: 100px solid rgb(160,160,160);
-        z-index: -1;
+        border-left: 170px solid transparent;
+        border-right: 170px solid transparent;
+        border-bottom: 100px solid rgb(72,72,72);
+        z-index: 3;
     }
     
     .mountainSix {
